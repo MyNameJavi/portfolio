@@ -43,9 +43,9 @@ export default function Home() {
       id: 4,
       title: "Portfolio Website",
       description: "My personal portfolio website built with Next.js, showcasing my projects and skills with modern web technologies.",
-      imageUrl: "/placeholder-project.jpg",
+      imageUrl: "/images/portfolio.png",
       githubUrl: "https://github.com/MyNameJavi/portfolio",
-      imagePosition: "center"
+      imagePosition: "top"
     }
   ];
 
@@ -59,10 +59,11 @@ export default function Home() {
           <div className="mb-8">
             <div className="relative w-48 h-48 mx-auto mb-6 bg-gray-300 dark:bg-gray-700 rounded-full overflow-hidden">
               <Image
-                src="/headshot-placeholder.jpg"
+                src="https://media.licdn.com/dms/image/v2/D4E03AQGam-cfRYlhLA/profile-displayphoto-shrink_800_800/B4EZbUwASeGQAk-/0/1747326076436?e=1766016000&v=beta&t=tGe13RSKK-dmByWmdgeWtYhJMhJpOmAShIISrjU56vA"
                 alt="Javier Guevara headshot"
                 fill
                 className="object-cover"
+                unoptimized
               />
             </div>
           </div>
@@ -70,10 +71,9 @@ export default function Home() {
             Hi, my name is Javier Guevara
           </h1>
           <p className="text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-            I&apos;m a passionate developer with expertise in building modern web applications. 
-            With a strong foundation in full-stack development, I create elegant solutions 
-            to complex problems. I specialize in React, Next.js, and cutting-edge web technologies, 
-            constantly learning and adapting to new challenges in the ever-evolving tech landscape.
+            I graduated with a Bachelor&apos;s degree in Computer Science from Florida International University in August 2025. 
+            With experience in both full-stack development and IT support, I build web applications using React and 
+            Next.js alongside backend technologies like Spring Boot, Node.JS, and SQL. 
           </p>
         </div>
       </section>
@@ -84,7 +84,7 @@ export default function Home() {
           <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-12 text-center">
             My Projects
           </h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-3xl mx-auto">
             {projects.map((project) => (
               <ProjectCard
                 key={project.id}
