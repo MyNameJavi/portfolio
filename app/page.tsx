@@ -4,35 +4,48 @@ import ProjectCard from "./components/ProjectCard";
 import ContactForm from "./components/ContactForm";
 
 export default function Home() {
-  // Placeholder project data
-  const projects = [
+  // Project data
+  const projects: Array<{
+    id: number;
+    title: string;
+    description: string;
+    imageUrl: string;
+    githubUrl: string;
+    imagePosition?: string;
+    objectFit?: 'cover' | 'contain';
+  }> = [
     {
       id: 1,
-      title: "Project 1",
-      description: "A brief description of your first project",
-      imageUrl: "/placeholder-project.jpg",
-      githubUrl: "https://github.com/yourusername/project1"
+      title: "Ziocorps Medspa Website",
+      description: "A modern medical spa website currently in development, featuring elegant design and user-friendly navigation.",
+      imageUrl: "/images/ziocorps.png",
+      githubUrl: "https://ami-website-lovat.vercel.app/",
+      imagePosition: "center",
+      objectFit: "contain"
     },
     {
       id: 2,
-      title: "Project 2",
-      description: "A brief description of your second project",
-      imageUrl: "/placeholder-project.jpg",
-      githubUrl: "https://github.com/yourusername/project2"
+      title: "Bookstore RESTful API",
+      description: "A comprehensive RESTful API for managing a bookstore system with full CRUD operations and database integration.",
+      imageUrl: "/images/bookstore.png",
+      githubUrl: "https://github.com/pabloehc/cen4010-team-9-bookstore",
+      imagePosition: "center"
     },
     {
       id: 3,
-      title: "Project 3",
-      description: "A brief description of your third project",
-      imageUrl: "/placeholder-project.jpg",
-      githubUrl: "https://github.com/yourusername/project3"
+      title: "ChatterBox Mobile App",
+      description: "A mobile messaging application where I contributed to the contacts feature, enabling seamless user connections.",
+      imageUrl: "/images/chatterbox.png",
+      githubUrl: "https://github.com/Mobile-CodeCraft/ChatterBoxApp",
+      imagePosition: "top"
     },
     {
       id: 4,
-      title: "Project 4",
-      description: "A brief description of your fourth project",
+      title: "Portfolio Website",
+      description: "My personal portfolio website built with Next.js, showcasing my projects and skills with modern web technologies.",
       imageUrl: "/placeholder-project.jpg",
-      githubUrl: "https://github.com/yourusername/project4"
+      githubUrl: "https://github.com/MyNameJavi/portfolio",
+      imagePosition: "center"
     }
   ];
 
@@ -79,6 +92,8 @@ export default function Home() {
                 description={project.description}
                 imageUrl={project.imageUrl}
                 githubUrl={project.githubUrl}
+                imagePosition={project.imagePosition}
+                objectFit={project.objectFit}
               />
             ))}
           </div>

@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { Github, Linkedin } from 'lucide-react';
+import { Github, Linkedin, Mail } from 'lucide-react';
 
 export default function Navbar() {
   return (
@@ -13,7 +13,7 @@ export default function Navbar() {
           </div>
           <div className="flex items-center gap-4">
             <Link 
-              href="https://github.com" 
+              href="https://github.com/MyNameJavi" 
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-700 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white transition-colors"
@@ -22,13 +22,20 @@ export default function Navbar() {
               <span className="sr-only">GitHub</span>
             </Link>
             <Link 
-              href="https://linkedin.com" 
+              href="https://www.linkedin.com/in/javier-guevara-698609214" 
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-700 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white transition-colors"
             >
               <Linkedin size={24} />
               <span className="sr-only">LinkedIn</span>
+            </Link>
+            <Link 
+              href="mailto:javierguevara3@outlook.com" 
+              className="text-gray-700 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white transition-colors"
+            >
+              <Mail size={24} />
+              <span className="sr-only">Email</span>
             </Link>
           </div>
         </div>
