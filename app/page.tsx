@@ -59,11 +59,10 @@ export default function Home() {
           <div className="mb-8">
             <div className="relative w-48 h-48 mx-auto mb-6 bg-gray-300 dark:bg-gray-700 rounded-full overflow-hidden">
               <Image
-                src="https://media.licdn.com/dms/image/v2/D4E03AQGam-cfRYlhLA/profile-displayphoto-shrink_800_800/B4EZbUwASeGQAk-/0/1747326076436?e=1766016000&v=beta&t=tGe13RSKK-dmByWmdgeWtYhJMhJpOmAShIISrjU56vA"
+                src="/images/javi.jpeg"
                 alt="Javier Guevara headshot"
                 fill
-                className="object-cover"
-                unoptimized
+                className="object-cover rounded-full"
               />
             </div>
           </div>
