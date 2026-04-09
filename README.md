@@ -2,7 +2,7 @@
 
 A modern, responsive portfolio website built with Next.js 16, TypeScript, and Tailwind CSS. This portfolio showcases my projects, skills, and provides a way to get in touch.
 
-## 🌟 Features
+## Features
 
 - **Responsive Design**: Fully responsive layout that works on all devices
 - **Dark Mode Support**: Automatic dark mode support with Tailwind CSS
@@ -11,7 +11,7 @@ A modern, responsive portfolio website built with Next.js 16, TypeScript, and Ta
 - **Modern UI**: Clean and professional design with smooth animations
 - **Social Links**: Quick access to GitHub, LinkedIn, and email
 
-## 🚀 Tech Stack
+## Tech Stack
 
 - **Framework**: Next.js 16 (App Router)
 - **Language**: TypeScript
@@ -20,7 +20,7 @@ A modern, responsive portfolio website built with Next.js 16, TypeScript, and Ta
 - **Deployment**: Vercel
 - **Form Handling**: Web3Forms
 
-## 📋 Project Structure
+## Project Structure
 
 ```
 portfolio/
@@ -37,7 +37,7 @@ portfolio/
 └── README.md
 ```
 
-## 🛠️ Getting Started
+## Getting Started
 
 First, install dependencies:
 
@@ -53,7 +53,7 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## 📝 Customization
+## Customization
 
 ### Adding Projects
 
@@ -84,7 +84,7 @@ Update social media links in `app/components/Navbar.tsx`:
 - LinkedIn: Line 27
 - Email: Line 36
 
-## 📦 Build & Deploy
+## Build & Deploy
 
 Build for production:
 
@@ -96,11 +96,11 @@ The easiest way to deploy is using [Vercel](https://vercel.com):
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/MyNameJavi/portfolio)
 
-## 📄 License
+## License
 
 This project is open source and available under the MIT License.
 
-## 📧 Contact
+## Contact
 
 - **Email**: javierguevara3@outlook.com
 - **GitHub**: [@MyNameJavi](https://github.com/MyNameJavi)
