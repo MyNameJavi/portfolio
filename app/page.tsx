@@ -19,7 +19,7 @@ export default function Home() {
       title: "Ziocorps Medspa Website",
       description: "A modern medical spa website currently in development, featuring elegant design and user-friendly navigation.",
       imageUrl: "/images/ziocorps.png",
-      githubUrl: "https://ami-website-lovat.vercel.app/",
+      githubUrl: "https://www.ziocorps.com/",
       imagePosition: "center",
       objectFit: "contain"
     },
